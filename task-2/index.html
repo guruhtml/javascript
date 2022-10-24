@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            height: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <script>
+
+        function ggg(num, func1, func2) {
+            return (func1(num) + func2(num));
+        }
+
+        function square(n) {
+            return n * n;
+        }
+        function cube(n) {
+            return n * n * n;
+        }
+
+        console.log(ggg(2, square, cube));
+
+
+    </script>
+</body>
+</html>
